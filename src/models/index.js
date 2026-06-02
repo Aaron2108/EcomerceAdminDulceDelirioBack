@@ -21,9 +21,9 @@ if (config.use_env_variable) {
 }
 
 const modelFiles = [
-  "estado.js", // 1° sin FK
-  "categoria.js", // 2° depende de estado
-  "producto.js", // 3° depende de categoria y estado
+  "Estado.js", // 1° sin FK
+  "Categoria.js", // 2° depende de estado
+  "Producto.js", // 3° depende de categoria y estado
   "User.js" // 4° sin FK
 ];
 modelFiles.forEach((file) => {
